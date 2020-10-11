@@ -1,0 +1,17 @@
+{
+  "name": "twitter-christian",
+  "version": "1.0.0",
+  "description": "crawler para pegar frases do twiter",
+  "main": "index.js",
+  "scripts": {
+    "test": "",
+    "start": "node index.js"
+  },
+  "author": "Leonardo Bussi",
+  "license": "ISC",
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "franc": "^5.0.0",
+    "twit": "^2.2.11"
+  }
+}
