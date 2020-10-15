@@ -37,7 +37,7 @@ var T = new Twit({
           if(err) throw new Error('deu ruim')
         })
 
-        csvWriter.writeRecords(dados)       // returns a promise
+        csvWriter.writeRecords(dados)       
         .then(() => {
           console.log('...fim...');
         });
