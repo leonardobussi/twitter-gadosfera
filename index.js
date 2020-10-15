@@ -10,10 +10,10 @@ const csvWriter = createCsvWriter({
     ]
 });
 
-const apikey = '8OV6zDwrfVp49L3DHMgCvXLyw'
-const apiSecretKey = '7A2ZFUgeKNOgC5m5VQNtFmvrRLfodlDyVumeJGnZFLl7y9YwJp'
-const accessToken = '1309114298464075781-HAMLJe0yScvhElu6LYMbDa13BIpyPr'
-const accessTokenSecret = 'sAicRA4vgq4AlnsVk3tckxauMsq6mkkjAH3JUHGNkIprN'
+const apikey = 'xxxxxx'
+const apiSecretKey = 'xxxxxxx'
+const accessToken = 'xxxxx'
+const accessTokenSecret = 'xxxxx'
 
 var T = new Twit({
   consumer_key:         apikey,
